@@ -5,3 +5,6 @@ https://api.upstox.com/v2/login/authorization/dialog?response_type=code&client_i
 
 2. Upstock collection for geting a auth token
 curl --location --request POST 'http://localhost:8085/auth?code=lmdXz_'
+
+3. For using cache we need to run redis in local. Docker is the best option to do so. Install docker desktop and run below image(run below command in cmd)
+docker run --name redis -p 6379:6379 -d redis
