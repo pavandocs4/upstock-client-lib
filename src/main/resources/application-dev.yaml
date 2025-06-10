@@ -1,0 +1,14 @@
+
+logging:
+  level:
+    root: DEBUG
+    '[com.upstock.client]': DEBUG
+
+
+upstock:
+  auth:
+    url: https://api.upstox.com/v2/login/authorization/token
+    redirection_uri: http://localhost:8081/login/saveAccessCode
+    client_id: 68bcff7a-3856-4f0f-8496-51bee90e0a36
+    client_secret: ughri0o8ll
+    grant_type: authorization_code
