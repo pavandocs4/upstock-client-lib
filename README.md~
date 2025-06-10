@@ -1,0 +1,7 @@
+Upstock client lib to interact with client api's
+
+1. Use below url to get the client security code and hit directly in the browser
+https://api.upstox.com/v2/login/authorization/dialog?response_type=code&client_id=68bcff7a-3856-4f0f-8496-51bee90e0a36&redirect_uri=http://localhost:8081/login/saveAccessCode&state= 
+
+2. Upstock collection for geting a auth token
+curl --location --request POST 'http://localhost:8085/auth?code=lmdXz_'
