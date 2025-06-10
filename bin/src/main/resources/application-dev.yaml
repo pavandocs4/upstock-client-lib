@@ -12,17 +12,3 @@ upstock:
     client_id: 68bcff7a-3856-4f0f-8496-51bee90e0a36
     client_secret: ughri0o8ll
     grant_type: authorization_code
-    mockFlag: false
-
-    
-    
-spring:
-  cache:
-    type: redis
-  data:
-    redis:
-      host: localhost
-      port: 6379
-    
-    
-    
